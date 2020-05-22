@@ -70,7 +70,9 @@ int main(int n , char *arv[]){
     lcdLoc(LINE1);
     typeln(" THAI DUC HIEP");
     lcdLoc(LINE2);
-    typeln("MSSV : ");
+    typeln("MSSV : 1653020100 ");
+    delay(5000);
+    ClrLcd();
     while (true) {
       img = takePicture();
       vector<Rect> faces;
